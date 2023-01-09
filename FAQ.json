@@ -1,0 +1,228 @@
+{
+    "intents":
+    [
+        {
+            "tag":"greetings",
+            "patterns":["hi","hello","how are you?","good morning", "good afternoon", "good evening"],
+            "responses":["Hello!","Good morning!", "How can I help you?", "What can I do for you?","Do you have any question for me?"]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":["See you soon", "Goodbye", "See you", "Have a nice day"],
+            "responses":["See you soon", "Goodbye", "See you", "Have a nice day"]
+        },
+        {
+            "tag":"thanks",
+            "patterns":["Thanks for the help","Thank you","Thank you for your help","Thanks"],
+            "responses":["It was nice to help you!","You're welcome!"]
+        },
+        {
+            "tag":"system_1",
+            "patterns":["how to access the system","how can i access the system"],
+            "responses":["You can do it online - unblock access to the online banking system or in the mobile application by selecting 'I can't log in' and then 'Unblock access'."]
+        },
+        {
+            "tag":"system_2",
+            "patterns":["Can I change my online banking login ?","Is it possible to change the login ?"],
+            "responses":["No. The login is assigned automatically. It is not possible to change it."]
+        },
+        {
+            "tag":"system_3",
+            "patterns":["how to log into the online banking system","how can i log into the online banking system","enter the steps to log into the system","please provide the steps to log into the system","how to log in to the bank's website","how can i log in to the bank website"],
+            "responses":["Select the 'Login' button, on the next page enter your login - without spaces, click the 'Next' button and on the next page complete the selected password characters"]
+        },
+        {
+            "tag":"system_4",
+            "patterns":["on which browsers the online banking system works","what browsers support the online banking system",
+            "on which browsers can I use online banking"],
+            "responses":["Microsoft Edge - version 99 and later, Chrome - version 99 and later, Mozilla Firefox - version 98 and later, Safari - version 12.1.2 and later."]
+        },
+        {
+            "tag":"system_5",
+            "patterns":["how to block access to the system","how can i block access to the system","how to block access to an account","how can i block access to my account"],
+            "responses":["Use the 'Access block' option. You will find it in your profile in the 'Settings' - 'Security' section."]
+        },
+        {
+            "tag":"system_6",
+            "patterns":["what is the validity of the activation code","how long is the activation code valid"],
+            "responses":["30 days from the date on which you place the order."]
+        },
+        {
+            "tag":"system_7",
+            "patterns":["what must be the system password", "what are the password requirements for the system","what requirements the system password must meet"],
+            "responses":["The password must be between 10 and 32 characters long and contain at least one uppercase letter, one lowercase letter, and a number. It must also be different from previous passwords in the system and be difficult to guess."]
+        },
+        {
+            "tag":"system_8",
+            "patterns":["how long the user's session lasts","what is the duration of the user's session",
+                        "what is the duration of the user's session in the online banking system",
+                        "how long the user's session in the online banking system lasts"],
+            "responses":["5 minutes since last activity. After this time, the system will ask you to enter the password again."]
+        },
+        {
+            "tag":"autoryzacja_1",
+            "patterns":["what are the types of transaction authorization","transaction authorization types"],
+            "responses":["The following types of transaction authorization are available: mobile authorization and SMS authorization."]
+        },
+        {
+            "tag":"autoryzacja_2",
+            "patterns":["what is mobile authorization"],
+            "responses":["If you are making a transfer on a computer, we may ask you for authorization in the application. To authorize a transfer on the go - log in to the application. You will receive information with the details of the transaction. If the details of the transaction match, confirm it."]
+        },
+        {
+            "tag":"autoryzacja_3",
+            "patterns":["activation of mobile authorization","how to activate mobile authorization"],
+            "responses":["You do not have to do anything. All you need is an active application."]
+        },
+        {
+            "tag":"autoryzacja_4",
+            "patterns":["what instructions do I need to confirm with an SMS code","what instructions need to be confirmed with an SMS code","what do I have to confirm by SMS authorization"],
+            "responses":["This is decided by the system - after it assesses the risk level of a given instruction. For security reasons, the algorithm that evaluates the risk is confidential."]
+        },
+        {
+            "tag":"autoryzacja_5",
+            "patterns":["authorization of transactions abroad","how to authorize a transaction abroad","how can I authorize a transaction abroad"],
+            "responses":["The same as in Poland - authorization does not depend on your place of stay."]
+        },
+        {
+            "tag":"aplikacja_1",
+            "patterns":["for which systems is the mobile application available","what systems support the mobile application"],
+            "responses":["The mobile application is available for phones with the following operating systems: Android - from version 7.0, iOS - from version 13.0"]
+        },
+        {
+            "tag":"aplikacja_2",
+            "patterns":["login to the application","how to log in to the mobile application","how can i log in to the mobile app","how can i log in to the application","how to log in to the application"],
+            "responses":["You log in to the application with a 4-digit PIN. You give it when you first start the application (activation)."]
+        },
+        {
+            "tag":"aplikacja_3",
+            "patterns":["what is the app pin code","what is the app PIN"],
+            "responses":["The PIN is a four-digit code that you enter when activating the application. It is used for each subsequent login."]
+        },
+        {
+            "tag":"aplikacja_4",
+            "patterns":["fingerprint login","is it possible to log in with a fingerprint","can i log in to the app with my fingerprint"],
+            "responses":["Yes. Fingerprint login is available for phones with a fingerprint reader."]
+        },
+        {
+            "tag":"aplikacja_5",
+            "patterns":["how to log out of the application","how to log out","how can i log out of the app","how can i log out"],
+            "responses":["For security reasons, we recommend that you log out of the app when you're done using it. You will find the 'Log out' button in your profile (click the icon in the upper right corner of the application). If you don't sign out, we'll automatically sign you out 60 seconds after your last activity."]
+        },
+        {
+            "tag":"przelewy_1",
+            "patterns":["cancellation of the transfer", "can i cancel the transfer"],
+            "responses":["You can cancel the transfer in the History in the transaction details - use the Cancel transfer option. The link will only be visible while you are able to use this service. We will return the money to your account no later than the next working day"]
+        },
+        {
+            "tag":"przelewy_2",
+            "patterns":["what transfers can't I cancel","what types of transfers can't I cancel"],
+            "responses":["You will not see the 'Cancel transfer' option for these types of transfers: Internal transfers without currency conversion, Transfers in the express mode: Express Elixir and BlueCash, SORBNET priority transfers and BLIK phone transfers"]
+        },
+        {
+            "tag":"przelewy_3",
+            "patterns":["model transfers", "what are model transfers","what is a model transfer"],
+            "responses":["In banking, we have made 'Recipients' available. This is a list where you can save frequent recipients of your payments. In the details you will find the last payments to a given recipient. Thanks to this, you can repeat them faster."]
+        },
+        {
+            "tag":"przelewy_4",
+            "patterns":["revocation of a standing order","what to do to cancel a standing order","how to cancel standing order","how can i cancel a standing order"],
+            "responses":["On your bank's website, go to Services, then select Scheduled Payments. Then select the transaction you want to cancel and click on the 'Cancel this transfer' button and confirm"]
+        },
+        {
+            "tag":"przelewy_5",
+            "patterns":["how much does it cost to cancel a transfer","transfer cancellation costs"],
+            "responses":["Cancellation of all transfers that can be canceled is free of charge."]
+        },
+        {
+            "tag":"historia_1",
+            "patterns":["where can i download the transaction confirmation","where can i download transaction confirmation", "download confirmation of the transaction"],
+            "responses":["You will find the confirmation of the transaction in the transaction details in the History."]
+        },
+        {
+            "tag":"historia_2",
+            "patterns":["where can i download a bank statement", "downloading a bank statement"],
+            "responses":["You can find a link to your statements in your account and card details and History. In the 'Statements' section, you can download statements in PDF and MT940 format as well as statements with confirmations in PDF format."]
+        },
+        {
+            "tag":"historia_3",
+            "patterns":["for what period can I download statements and transaction history"],
+            "responses":["The oldest date from which we provide this data is January 1, 2011. If your account was opened later, we share this data from the date of opening."]
+        },
+        {
+            "tag":"historia_4",
+            "patterns":["closed account history","can i see closed account history"],
+            "responses":["Even if you still have access to the banking system, you will no longer see the closed account history there."]
+        },
+        {
+            "tag":"konta_1",
+            "patterns":["account balance", "how to check account balance", "how can i check my account balance", "how to quickly check your account balance", "How can I quickly check my account balance"],
+            "responses":["The 'I have' amount includes the sum of available funds: on savings and current accounts, within the credit card limit and overdraft, investments, deposits, virtual and prepaid cards, and on accounts of which you are a proxy, co-owner or representative."]
+        },
+        {
+            "tag":"konta_2",
+            "patterns":["does the system allow access to a company and personal account at the same time"],
+            "responses":["If you have a company account running a sole proprietorship and at the same time you have a personal account, we can give you one User ID (login) for banking. Otherwise, there is no such possibility."]
+        },
+        {
+            "tag":"karty_1",
+            "patterns":["cancellation of a lost card","how to cancel a lost card","how can i cancel a lost card","blocking a stolen card","how to block a stolen card","how can i block a stolen card"],
+            "responses":["You can cancel your card in three ways: via online banking, via the hotline or at a bank branch."]
+        },
+        {
+            "tag":"karty_2",
+            "patterns":["card lock","how to block a card temporarily","how can i temporarily block my card","how can i block the card","how to block the card"],
+            "responses":["In online banking, select Cards and payments by phone, enter card details, and then Block card temporarily."]
+        },
+        {
+            "tag":"karty_3",
+            "patterns":["unlocking the card", "how to unlock the card", "how can i unblock the card"],
+            "responses":["You can unblock your debit card in the online banking system. You have 30 days to do so. We'll close it after that."]
+        },
+        {
+            "tag":"konta_3",
+            "patterns":["What is needed to open a bank account","What do I need to open a bank account", "I'd like to open a bank account", "I would like to open a bank account"],
+            "responses":["Prepare the following data and you will easily fill in the application for an account:\n First and last name, maiden name,\n Mother's maiden name,\n Date and place of birth, citizenship,\n PESEL number,\n ID card series and number, \n Mobile phone number (Polish operator),\n E-mail address,\n Address of residence and mailing address."]
+        },
+        {
+            "tag":"konta_4",
+            "patterns":["How to open an account online/via the mobile app","How can I open an account online/via the mobile app"],
+            "responses":["Go to conclusion of the contract online. If you open an account for a selfie: Your account will be active after the conclusion of the contract. We will send you the login details for the website and mobile application in the e-mail. If you open an account in the 'courier' option: Within 2 working days of concluding the contract, the courier will provide you with a debit card (if ordered) and 1 document to sign: confirmation of your identity and signature specimen."]
+        },
+        {
+            "tag":"konta_5",
+            "patterns":["How to open an account at a bank branch","How can I open an account at a bank branch"],
+            "responses":["Prepare the information needed to open an account, an identity document (ID card or passport) and go to one of the bank's branches.\n A branch employee will set up an account for you and sign the contract immediately.\n Activate the electronic banking service with the support of a branch employee."]
+        },
+        {
+            "tag":"konta_6",
+            "patterns":["How to open an account over the phone","How can I open an account over the phone"],
+            "responses":["Prepare the information needed to open an account and call 987 654 321.\n Follow the instructions to connect with a consultant. The consultant will guide you step by step and fill out the account application for you.\n The contract to be signed will be delivered to you by courier. When signing the contract, show the courier the document whose series and number were provided in the application. If you open a joint account, the second person also signs the agreement.\n Based on the customer number, activate the electronic banking service."]
+        },
+        {
+            "tag":"konta_7",
+            "patterns":["How long does it take to activate the account","How long does account activation take"],
+            "responses":["Activation of the bank account takes place after signing the contract. Sometimes it is active within a day or two from the delivery of the contract to the bank. The period from submitting the form online to activating the account can take up to a week, depending on how quickly the courier arrives."]
+        },
+        {
+            "tag":"kredyt_1",
+            "patterns":["How long does it take to get a loan"],
+            "responses":["As a rule, the fastest credit process is in the case of cash products (credit, loan) and lasts a few working days. In the case of mortgage or consolidation loans, this process is longer. The bank has 21 working days to issue a credit decision."]
+        },
+        {
+            "tag":"kredyt_2",
+            "patterns":["Can I pay off the loan ahead of schedule","Can I repay the loan ahead of schedule"],
+            "responses":["Each liability can be repaid before the payment date specified in the loan agreement. As a result of the change in the applicable regulations, banks cannot charge an additional commission for early repayment of financial liabilities."]
+        },
+        {
+            "tag":"kredyt_3",
+            "patterns":["How is creditworthiness calculated","Creditworthiness"],
+            "responses":["Creditworthiness is calculated on the basis of the financial status of the potential borrower, seniority and type of work, family status, as well as the DTI index, i.e. the relationship between the liabilities held divided by our income. DTI cannot exceed 65% if we earn above the so-called national average, and 50% for other customers."]
+        },
+        {
+            "tag":"kredyt_4",
+            "patterns":["What is needed to take a loan","What do I need to take a loan"],
+            "responses":["ID card necessary to receive a cash loan. It should be remembered here that it must be an ID card, not, for example, a passport or driving license. Only foreigners applying for a loan can use alternative documents, e.g. a passport and a permanent or temporary residence card. In addition, the basic document required when applying for a cash loan is also a properly completed application form. A proof of income is usually also required."]
+        }
+    ]
+}
